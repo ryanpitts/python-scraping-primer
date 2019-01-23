@@ -1,0 +1,114 @@
+﻿
+a {
+    color: #257999;
+    text-decoration:underline;
+}
+.headlineCP {
+    border: 0 none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    color: #2e3a2c;
+    font-size: 2.1em;
+    text-decoration: none;
+}
+.subheadCP {
+        margin-top: .167em;
+    border: 0 none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    color: #4c604c;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+.widgetContainerCP {
+    background-color:#f5f3f0;
+    border: 1px solid #ccc;
+    padding:10px;
+    margin:0 0 10px 0;
+}
+.formLabelCP {
+    color: #54241C;
+    font-family: Arial;
+    font-size: 10pt;
+    color: #54241C;
+    font-weight: bold;
+
+}
+h2.cp {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    margin: 0 -5px 7px;
+    padding: 0 95px 2px 5px;
+    border-bottom-color: #f5f3f0;
+}
+.FormHint { 
+    display:none;
+    position: absolute;
+    right: -270px;
+    width: 210px;
+    margin-top: -4px;
+    border: 1px solid #c93;
+    padding: 10px 12px;
+    background-color: #ffc;
+    font-size:.9em;}
+      
+    .FormHint .FormHintPointer {
+    position:absolute;
+    left: -10px;
+    top: 5px;
+    width: 10px;
+    height: 19px;
+    background: url(http://www.spokanecounty.org/images/common/test/pointer.gif) left top no-repeat;
+}
+
+.FormInput {
+
+}
+.PlaceholderText {
+    font-style: italic;
+    color: #999 !important;
+}
+.LostAndFoundForm {max-width:450px; padding:0px;float:left;}
+
+.LostAndFoundForm label {
+    color: #54241C;
+    font-family: Arial;
+    font-size: 10pt;
+    color: #54241C;
+    font-weight: bold;
+
+}
+
+.LostAndFoundForm dl, #LostAndFoundFormReview dl  {
+background-color: #f5f3f0;
+border: 1px solid #ccc;
+float: left;
+padding: 10px;
+position: relative;
+width: 100%;
+margin-bottom:20px;
+}
+    
+.LostAndFoundForm dl dt, #LostAndFoundFormReview dl dt {
+clear: both;
+float: left;
+font-weight: bold;
+padding: 4px 0 2px;
+text-align: left;
+vertical-align: top;
+max-width: 130px;
+}
+    
+.LostAndFoundForm dl dd, #LostAndFoundFormReview dl dd {
+float: left;
+margin: 0 0 8px;
+padding: 4px 0 2px 6px;
+vertical-align: top;
+max-width: 270px;
+}
+.rowCP {
+    padding-bottom:4px;
+    padding-top:4px;
+}

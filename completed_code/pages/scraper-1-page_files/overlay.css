@@ -1,0 +1,87 @@
+﻿.overlay 
+{
+    /* initially overlay is hidden */
+	display:none;
+	
+	/* some padding to layout nested elements nicely  */
+	padding:35px;
+
+	/* a little styling */	
+	font-size:11px;
+    }
+
+.overlay .close {background-image:url(../styles/images/overlay/close.png);
+	position:absolute; right:5px; top:5px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+	position:absolute; right:20px; top:55px;}
+
+/* the overlayed element */
+.apple_overlay {
+	
+	/* initially overlay is hidden */
+	display:none;
+	
+	/* growing background image */
+	background-image:url(../styles/images/overlay/white.png);
+	
+	/* 
+		width after the growing animation finishes
+		height is automatically calculated
+	*/
+	width:350px;		
+
+	
+	/* some padding to layout nested elements nicely  */
+	padding:35px;
+
+	/* a little styling */	
+	font-size:11px;
+}
+
+/* default close button positioned on upper right corner */
+.apple_overlay .close {
+	background-image:url(../styles/images/overlay/close.png);
+	position:absolute; right:5px; top:5px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+}
+
+div.apple_overlay.black {
+		background-image:url(../styles/images/overlay/transparent.png);	
+		background-image:url(http://www.spokanecounty.org/images/common/backgrounds/clearpixel.gif);	
+		width:1px;
+		height:1px;
+		color:#fff;
+	}
+div.apple_overlay.black .close
+{
+    position:absolute; right:20px; top:20px;
+}
+	
+	div.apple_overlay h2 {
+		margin:10px 0 -9px 0;
+		font-weight:bold;
+		font-size:14px;
+	}
+	
+	div.black h2 {
+		color:#fff;
+	}
+	
+	#triggers {
+		margin-top:10px;
+		text-align:center;
+	}
+	
+	#triggers img {
+		background-color:#fff;
+		padding:2px;
+		border:1px solid #ccc;
+		margin:2px 5px;
+		cursor:pointer;
+		-moz-border-radius:4px;
+		-webkit-border-radius:4px;
+	}
