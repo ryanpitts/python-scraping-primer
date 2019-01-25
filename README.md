@@ -4,9 +4,9 @@ Web scraping is the process of grabbing data from the internet, turning structur
 
 For this one-hour workshop at NICAR 2019, we'll (do our best to) work through these three scripts to turn you into a scraping pro:
 
-* scraper-0: A super simple example to illustrate the basics, getting data from a single table in a file we've stored locally.
-* scraper-1: A slightly more complex example that fetches real data (in this case, court hearings) that we might want to get from the web. If we don't have a strong internet connection, we have a backup copy of the page stored locally.
-* scraper-2: An example that adds one more step of complexity, scraping a dataset (FDA warnings) that's broken across multiple web pages.
+* [scraper-0](scraper-0.ipynb): A super simple example to illustrate the basics, getting data from a single table in a file we've stored locally.
+* [scraper-1](scraper-1.ipynb): A slightly more complex example that fetches real data (in this case, court hearings) that we might want to get from the web. If we don't have a strong internet connection, we have a backup copy of the page stored locally.
+* [scraper-2](scraper-2.ipynb): An example that adds one more step of complexity, scraping a dataset (FDA warnings) that's broken across multiple web pages.
 
 ## Best practices
 
