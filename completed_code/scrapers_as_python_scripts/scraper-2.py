@@ -2,6 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
+import time
 
 # define the URL we want to scrape
 URL = 'https://www.fda.gov/ICECI/EnforcementActions/WarningLetters/2018/default.htm'
@@ -55,6 +56,8 @@ while more_pages is True:
         html = page.content
         soup = BeautifulSoup(html, 'html.parser')
         table = soup.find('table')
+        # pause for a second to be kind to the server
+        time.sleep(1)
     # if there's no "next page" link, there are no more pages, so drop out of our loop
     else:
         more_pages = False
