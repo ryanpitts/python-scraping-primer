@@ -26,3 +26,12 @@ For this one-hour workshop at NICAR 2019, we'll (do our best to) work through th
 ## One key limitation
 
 * If the site you're scraping makes any changes—even something that just seems cosmetic!—it can break your scraper.
+
+## Resources
+
+This workshop shares approaches and borrows some structure from some other great workshops!
+
+* [Melissa Lewis' Web Scraping for Journos](https://github.com/meli-lewis/web-scraping-for-journos)
+* [Matt Wynn's IRE Scraping 2018](https://github.com/mattwynn1/IRE-scraping-2018)
+* [Cody Winchester's 2018 IRE Coding for Journalists Python Boot Camp](https://github.com/ireapps/cfj-2018)
+* [Forest Gregg's Intro to Scraping](https://github.com/fgregg/scraping-intro)
